@@ -1,0 +1,6 @@
+{
+    "docify.commentService.programmingLanguage": "python",
+    "docify.commentService.docstringFormat": "reST",
+    "docify.translateService.docstringFormat": "XML",
+    "docify.translateService.programmingLanguage": "python"
+}

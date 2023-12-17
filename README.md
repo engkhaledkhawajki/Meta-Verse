@@ -2,6 +2,17 @@
 ## Overview
 This repository houses the project for the Meta-Verse, an innovative platform that leverages various components to enable collaborative and secure machine learning in a distributed environment.
 
+## Main Problem
+This project is mainly about translating student's emotions to their avatars so that teacher will be engaged with students.
+To solve this issue we tend to apply Federated Learning.
+
+From this problem we reached to sub problem can be divided to:
+1. Privacy: that where reverse engineering could cause an issue by retrieving the images from the weights
+2. Effeciency: that happens because of the high heterogeneity of the data between students
+
+In order to improve 1 we used Differential Privacy to add noise to weights during training so that no one will be able to retrieve the images from them.
+For 2 we developed a grouping algorithm that make sure all groups have the same data distribution
+
 ## Folder Structure
 1. Client_Server:
 This directory contains Python (.py) files responsible for implementing client and server classes components.
